@@ -1,17 +1,20 @@
 {
-    "name": "discord-bot",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": "",
-    "dependencies": {
-        "discord.js": "^14.16.3",
-        "dotenv": "^16.4.7",
-        "mongoose": "^8.8.3"
-    }
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot with message and voice statistics.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.9.3",
+    "mongoose": "^7.2.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
 }
